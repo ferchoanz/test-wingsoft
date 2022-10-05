@@ -7,10 +7,10 @@ export class Visit {
     @PrimaryGeneratedColumn({ unsigned: true })
     id: number;
 
-    @Column({ type: 'int', unsigned: true, width: 10 })
+    @Column({ type: 'int', unsigned: true, nullable: true, width: 10 })
     userId: number;
 
-    @Column({ type: 'int', unsigned: true, width: 10 })
+    @Column({ type: 'int', unsigned: true, nullable: true, width: 10 })
     postId: number;
 
     @ManyToOne(() => Post, post => post.visits)
