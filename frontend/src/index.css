@@ -1,0 +1,19 @@
+.login {
+  width: 32rem;
+  margin-top: 15rem;
+}
+
+.login>img {
+  width: 32rem;
+  margin-bottom: 2rem;
+}
+
+.show-post {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.show-post>.list-group {
+  width: 32rem;
+}
