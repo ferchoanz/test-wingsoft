@@ -3,7 +3,7 @@
 ## Correo: fercho0281@gmail.com
 
 ## Descripcion:
-Pequeno sistema para la getion de un Blog de publicaciones.
+Pequeno sistema para la gestion de un Blog de publicaciones.
 
 ## Frameworks Utilizados:
 - ### ReactJs en su version 18.2.0.
