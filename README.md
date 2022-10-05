@@ -2,7 +2,7 @@
 # Ingeniero en Computacion Fernando Pacheco
 ## Correo: fercho0281@gmail.com
 
-## Descipcion:
+## Descripcion:
 Pequeno sistema para la getion de un Blog de publicaciones.
 
 ## Frameworks Utilizados:
