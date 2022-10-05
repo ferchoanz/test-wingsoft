@@ -21,6 +21,6 @@ export class Post {
     @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP' })
     createdAt: Date;
 
-    @OneToMany(() => Visit, (visit) => visit.post)
+    @OneToMany(() => Visit, (visit) => visit.post, { cascade: ["remove"] })
     visits?: Visit[];
 }

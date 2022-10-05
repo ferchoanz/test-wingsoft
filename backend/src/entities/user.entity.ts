@@ -18,6 +18,6 @@ export class User {
     @Column({ type: 'varchar' })
     password: string;
 
-    @OneToMany(() => Visit, (visit) => visit.user, { cascade: true })
+    @OneToMany(() => Visit, (visit) => visit.user, { cascade: ["remove"] })
     visits?: Visit[];
 }
